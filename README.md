@@ -10,7 +10,7 @@ This bundle does not include original Redactor JavaScript library, for using it 
 ```js
 "require": {
     ...
-    "stp/redactor-bundle": "dev-master"
+    "kraksoft/redactor-bundle": "dev-master"
     ...
 },
 "repositories": [

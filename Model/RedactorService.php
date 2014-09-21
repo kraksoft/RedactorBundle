@@ -52,11 +52,13 @@ class RedactorService extends ContainerAware
 
         $newFile = $upFile->move($uploadPath, $newFileName);
 
+        /*
         file_put_contents(
             $newFile->getRealPath() . ".json",
-            json_encode($data), 
+            json_encode($data),
             LOCK_EX
         );
+        */
 
         return $data;
     }

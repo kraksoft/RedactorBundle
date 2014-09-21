@@ -28,7 +28,10 @@ class StpRedactorExtension extends Extension
                 if (!isset($envConfig[$fileKey]['dir'])) {
                     continue;
                 }
+                /*
                 $paths = explode('web', $envConfig[$fileKey]['dir']);
+                */
+                $paths = explode('public_html', $envConfig[$fileKey]['dir']);
                 $envConfig[$fileKey]['web_dir'] = $paths[1];
             }
             /**

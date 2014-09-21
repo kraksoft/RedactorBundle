@@ -14,7 +14,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route,
     Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 /**
- * @Route("/redactor") 
+ * @Route("/redactor")
  */
 class RedactorController extends Controller
 {
@@ -36,7 +36,7 @@ class RedactorController extends Controller
     protected function isAllowException($env)
     {
         if (!$this->getRedactor()->isAllowed($env)) {
-            throw new AccessDeniedException('You are not allowed to upload files');
+//            throw new AccessDeniedException('You are not allowed to upload files');
         }
     }
 

@@ -1,16 +1,20 @@
 {
-    "name": "stp/redactor-bundle",
+    "name": "kraksoft/redactor-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Redactor WYSIWYG Form Type",
     "keywords": [
         "form", "WYSIWYG", "sonata", "bundle", "editor", "redactor"
     ],
-    "homepage": "http://github.com/AStepanov/RedactorBundle",
+    "homepage": "https://github.com/kraksoft/RedactorBundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Andrey Stepanov",
             "email": "isteep@gmail.com"
+        },
+        {
+            "name": "Piotr Kędra",
+            "email": "kedrap@gmail.com"
         }
     ],
     "require-dev": {
