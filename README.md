@@ -1,3 +1,8 @@
+# Disclaimer
+
+This is an unlinked fork of https://github.com/AStepanov/RedactorBundle/. 
+True author is Andrey Stepanov, here is only a little bit changed version.
+
 # RedactorBundle
 
 Bundle is destined to add Redactor WYSIWYG editor to your Symfony2 project.
